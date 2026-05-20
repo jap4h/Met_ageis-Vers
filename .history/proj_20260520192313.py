@@ -9,8 +9,9 @@ while operacao != 0 :
         primeiro_valor = float(input("Digite o primeiro numero: "))
         if(operacao == 6):
             input("Digite a porcentagem do valor 1 que você deseja ver: ")
-        else: 
-            segundo_valor = float(input("Dgite o segundo numero: "))
+            break
+        else:
+        segundo_valor = float(input("Dgite o segundo numero: "))
 
     def subtracao(primeiro_valor,segundo_valor):
         return primeiro_valor + segundo_valor
@@ -39,7 +40,3 @@ while operacao != 0 :
             print("Sua resposta é: " , divisao(primeiro_valor , segundo_valor))
         case 4 : 
             print("Sua resposta é: " , multiplicacao(primeiro_valor , segundo_valor))
-        case 5 : 
-            print("Sua resposta é: " , exponenciacao(primeiro_valor,segundo_valor))
-        case 6 : 
-            print("Sua resposta é: " , porcentagem(primeiro_valor,segundo_valor))

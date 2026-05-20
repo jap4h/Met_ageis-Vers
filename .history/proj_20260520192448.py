@@ -42,4 +42,4 @@ while operacao != 0 :
         case 5 : 
             print("Sua resposta é: " , exponenciacao(primeiro_valor,segundo_valor))
         case 6 : 
-            print("Sua resposta é: " , porcentagem(primeiro_valor,segundo_valor))
+            print("Sua resposta é: " , exponenciacao(primeiro_valor,segundo_valor))

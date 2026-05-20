@@ -39,7 +39,4 @@ while operacao != 0 :
             print("Sua resposta é: " , divisao(primeiro_valor , segundo_valor))
         case 4 : 
             print("Sua resposta é: " , multiplicacao(primeiro_valor , segundo_valor))
-        case 5 : 
-            print("Sua resposta é: " , exponenciacao(primeiro_valor,segundo_valor))
-        case 6 : 
-            print("Sua resposta é: " , porcentagem(primeiro_valor,segundo_valor))
+        cse 5
